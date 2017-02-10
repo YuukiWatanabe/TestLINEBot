@@ -1,7 +1,7 @@
 <?php
 
-$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('V5echcjn1fRA5WXBLixP64bPatPoVUgDPrRnN+jfDO+MIJ2kBzvWc5WqeU9Fctvnlg0OhczFWlvEhUUrqComLtTBPBtocRnySqHdVj9qqx8tYFiEvrJRSBsQutU58w/Zrcczd/ZCIpceSpJVOhdU0AdB04t89/1O/w1cDnyilFU=');
-$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => 'fc8adf5b7258106c8e49eaf4975ae601']);
+$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('w0h1+qugG7eK9irRuhSxXlwSbPtFvL+d8bYGex2B0Gyk45uhNUJ7h2ukhQ5f6DqRVRmvtKAO4cjOyGs1YqFJXKAGDslIySYz/oyxlRhMVFYdIQ/fE9Yfbq3rwlJ60pyPSEmvwEgcjas4V3fBQ2eg9QdB04t89/1O/w1cDnyilFU=');
+    $bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '47368e7e23bd0ac6915e085105e2d330']);
 
 $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello');
 $response = $bot->pushMessage('<to>', $textMessageBuilder);
